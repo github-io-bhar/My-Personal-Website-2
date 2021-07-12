@@ -1,0 +1,144 @@
+#apps {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.container {
+    text-align: center;
+}
+
+#myCarousel {
+    background-color: red;
+}
+
+#myCarousel {
+    height: 355px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#games {
+    background-color: darksalmon;
+}
+
+#home {
+    background-color: darkorange;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#games img {
+    transition: transform .2s;
+    height: 225px;
+    width: 225px;
+    border: 10px solid #AAAAAA;
+    border-radius: 10px;
+}
+
+#games img:hover {
+    transform: scale(0.9);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#details {
+    background-color: yellow;
+}
+
+#chatbots {
+    background-color: antiquewhite;
+}
+
+h2 {
+    text-shadow: 2px 2px #F44336;
+    font-size: 90px;
+}
+
+#hd1 {
+    font-size: 20px;
+}
+
+#hd2 {
+    font-size: 20px;
+}
+
+#hd3 {
+    font-size: 20px;
+}
+
+#hd4 {
+    font-size: 20px;
+}
+
+#games p {
+    font-size: 30px;
+}
+
+#hd10 h2 {
+    font-size: 50px;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+    text-align: center;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.link {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.link {
+    float: left;
+    color: #FFF;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
